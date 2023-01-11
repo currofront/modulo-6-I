@@ -10,14 +10,23 @@
 </head>
 
 <body>
-    <main>
+    <main class="container">
         <h1>Carrito de la compra</h1>
-        <div class="product-list-container">
+        <div class="product-list-container" >
+            <ol id="product-list">
+
+            </ol>
 
         </div>
 
-        <button>Calcular</button>
+        <button id="calculate">Calcular</button>
+
+        <h2>Subtotal: <span id="subtotal"></span></h2>
+        <h2>IVA: <span id="tax"></span></h2>
+        <h2>Total: <span id="total"></span></h2>
     </main>
+
+    
 
 
     <script src="js/main.js"></script>
